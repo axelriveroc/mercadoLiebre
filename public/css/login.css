@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+}
+
+.formulario{
+    width: 100%;
+    margin: 0 auto;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.input_nombre, .input_pass, .btn_enviar{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.btn_enviar{
+    background-color: green;
+    transition: all 450ms;
+
+}
+
+.btn_enviar a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.error{
+    background: red;
+    color: white;
+}
+
+main{
+    margin-top: 168px;
+  }
+
+  .btn_enviar:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+  }

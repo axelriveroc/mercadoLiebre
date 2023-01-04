@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(179, 179, 179, 0.356);
+
+}
+.formularioRegister{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    min-height: 90vh;
+    gap: 10px;
+
+}
+
+.formularioRegister input{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.formularioRegister .labelFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.comprarVender{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .intereses input[type="checkbox"] {
+    display: block;
+    margin: 10px 0;
+  } */
+  
+  
+/*   .intereses2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .intereses2 input[type="checkbox"] {
+    margin-right: 10px;
+    display: block;
+  } */
+  
+  .intereses{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intereses label input[type="checkbox"]{
+    margin: 0 30px;
+  }
+
+  main{
+    margin-top: 168px;
+  }
